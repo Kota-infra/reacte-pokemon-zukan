@@ -21,7 +21,7 @@ const App: React.FC = () => {
               <div className="p-4">
                 <h2 className="text-xl">ページが見つかりません。</h2>
                 <Link
-                  to="/"
+                  to="/pokemon/1"
                   className="mt-3 inline-block text-blue-500 underline"
                 >
                   一覧に戻る
