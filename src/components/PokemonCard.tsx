@@ -1,4 +1,3 @@
-// src/components/PokemonCard.tsx
 import React from 'react';
 import { Link } from 'react-router-dom';
 import type { PokemonWithJapaneseName } from '../api/pokemonWithJapaneseName';
