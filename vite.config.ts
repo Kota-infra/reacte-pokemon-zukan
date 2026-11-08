@@ -7,10 +7,9 @@ export default defineConfig(({ command, isPreview }) => ({
     react(),
     tailwindcss(),
   ],
-  base: command === 'serve' && !isPreview ? '/' : '/react-pokemon-zukan/',
+  base: command === 'serve' && !isPreview ? '/' : '/reacte-pokemon-zukan/',
   test: {
     enviroment: 'jsdom',
     setupFiles: '/src/test/setup.ts',
   },
 }));
-
